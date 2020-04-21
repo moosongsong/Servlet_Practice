@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+</head>
+<body>
+	<form method="post" action="/ServletProject/register">
+		<table>
+			<thead>
+				<tr>
+					<td colspan="2">회원가입</td>
+				</tr>
+
+			</thead>
+
+			<tr>
+				<th>전자메일</th>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<th>비밀번호</th>
+				<td><input type="text" name="pass" /></td>
+			</tr>
+			<tr>
+				<th>비밀번호확인</th>
+				<td><input type="text" name="pass2" /></td>
+			</tr>
+			<tr>
+				<th>별명</th>
+				<td><input type="text" name="nick" /></td>
+			</tr>
+
+			<tfoot>
+				<tr>
+					<td colspan="2"><button type="submit">등록하기</button></td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+</body>
+</html>

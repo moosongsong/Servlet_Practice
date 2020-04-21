@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script type="text/javascript" src="./script/script.js"></script>
+<link rel="shortcut icon" href="#">
+
+</head>
+<body>
+	<form method="post" action="/SecondServletProject_20200420/register">
+		<table>
+			<thead>
+				<tr>
+					<td colspan="2">회원가입</td>
+				</tr>
+
+			</thead>
+
+			<tr>
+				<th>전자메일</th>
+				<td>
+					<input type="text" name="email" />
+					<button type="button" id="checkEmail">중복확인</button>
+				</td>
+			</tr>
+			<tr>
+				<th>비밀번호</th>
+				<td><input type="text" name="pass" /></td>
+			</tr>
+			<tr>
+				<th>비밀번호확인</th>
+				<td><input type="text" name="pass2" /></td>
+			</tr>
+			<tr>
+				<th>별명</th>
+				<td>
+					<input type="text" name="nick" />
+					<button type="button" id="checkNick">중복확인</button>
+				</td>
+			</tr>
+
+			<tfoot>
+				<tr>
+					<td colspan="2"><button type="submit">등록하기</button></td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+</body>
+</html>
